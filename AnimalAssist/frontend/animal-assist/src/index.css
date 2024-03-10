@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import "bulma/css/bulma.css";
+
+body{
+    height:100dvh;
+}
+
+h3, label, a {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.landing-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-page-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
